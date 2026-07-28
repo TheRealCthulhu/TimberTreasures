@@ -19,9 +19,19 @@ public class ModBlockTagProvider extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         tag(BlockTags.MINEABLE_WITH_AXE)
-                .add(ModBlocks.DIRT_LOG.get());
+                .add(ModBlocks.DIRT_LOG.get())
+        ;
+
+        tag(BlockTags.MINEABLE_WITH_HOE)
+                .add(ModBlocks.DIRT_LEAVES.get())
+        ;
+
+        tag(BlockTags.LEAVES)
+                .add(ModBlocks.DIRT_LEAVES.get())
+        ;
 
         this.tag(BlockTags.LOGS_THAT_BURN)
-                .add(ModBlocks.DIRT_LOG.get());
+                .add(ModBlocks.DIRT_LOG.get())
+        ;
     }
 }
