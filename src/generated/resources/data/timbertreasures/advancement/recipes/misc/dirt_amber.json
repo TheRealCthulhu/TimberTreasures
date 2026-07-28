@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dirt_acorn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timbertreasures:dirt_acorn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dirt_resin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timbertreasures:dirt_resin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "timbertreasures:dirt_amber"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dirt_acorn",
+      "has_dirt_resin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "timbertreasures:dirt_amber"
+    ]
+  }
+}

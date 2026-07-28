@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "timbertreasures:dirt_acorn"
+    },
+    "R": {
+      "item": "timbertreasures:dirt_resin"
+    }
+  },
+  "pattern": [
+    "ARA",
+    "RAR",
+    "ARA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "timbertreasures:dirt_amber"
+  }
+}

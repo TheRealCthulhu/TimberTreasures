@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "timbertreasures:block/dirt_log_top",
+    "side": "timbertreasures:block/dirt_log"
+  }
+}

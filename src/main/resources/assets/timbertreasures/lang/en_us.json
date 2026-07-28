@@ -1,7 +1,14 @@
 {
   "itemGroup.examplemod": "Example Mod Tab",
-  "block.examplemod.example_block": "Example Block",
-  "item.examplemod.example_item": "Example Item",
+  "block.timbertreasures.dirt_amber": "Dirt Amber",
+  "block.timbertreasures.dirt_log": "Dirt Log",
+  "block.timbertreasures.dirt_leaves": "Dirt Leaves",
+  "block.timbertreasures.dirt_sapling": "Dirt Sapling",
+  "item.timbertreasures.dirt_acorn": "Dirt Acorn",
+  "item.timbertreasures.dirt_resin": "Dirt Resin",
+
+  "creativetab.timbertreasures.timber_treasures": "Timber Treasures",
+
 
   "examplemod.configuration.title": "Example Mod Configs",
   "examplemod.configuration.section.examplemod.common.toml": "Example Mod Configs",
