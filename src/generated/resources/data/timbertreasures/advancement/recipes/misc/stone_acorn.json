@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dirt_acorn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timbertreasures:dirt_acorn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "timbertreasures:stone_acorn"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dirt_acorn"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "timbertreasures:stone_acorn"
+    ]
+  }
+}

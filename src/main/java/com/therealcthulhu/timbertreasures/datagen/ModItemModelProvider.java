@@ -20,8 +20,23 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         basicItem(ModItems.DIRT_ACORN.get());
         basicItem(ModItems.DIRT_RESIN.get());
-
         saplingItem(ModBlocks.DIRT_SAPLING);
+
+        basicItem(ModItems.STONE_ACORN.get());
+        basicItem(ModItems.STONE_RESIN.get());
+        saplingItem(ModBlocks.STONE_SAPLING);
+
+        basicItem(ModItems.GRAVEL_ACORN.get());
+        basicItem(ModItems.GRAVEL_RESIN.get());
+        saplingItem(ModBlocks.GRAVEL_SAPLING);
+
+        basicItem(ModItems.CLAY_ACORN.get());
+        basicItem(ModItems.CLAY_RESIN.get());
+        saplingItem(ModBlocks.CLAY_SAPLING);
+
+        basicItem(ModItems.SAND_ACORN.get());
+        basicItem(ModItems.SAND_RESIN.get());
+        saplingItem(ModBlocks.SAND_SAPLING);
     }
 
     private ItemModelBuilder saplingItem(DeferredBlock<Block> item) {

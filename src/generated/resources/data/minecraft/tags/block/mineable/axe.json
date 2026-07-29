@@ -1,5 +1,9 @@
 {
   "values": [
-    "timbertreasures:dirt_log"
+    "timbertreasures:dirt_log",
+    "timbertreasures:stone_log",
+    "timbertreasures:gravel_log",
+    "timbertreasures:clay_log",
+    "timbertreasures:sand_log"
   ]
 }

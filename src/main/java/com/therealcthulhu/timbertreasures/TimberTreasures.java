@@ -52,14 +52,7 @@ public class TimberTreasures {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.DIRT_ACORN);
-            event.accept(ModItems.DIRT_RESIN);
-        }
 
-        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-            event.accept(ModBlocks.DIRT_AMBER);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

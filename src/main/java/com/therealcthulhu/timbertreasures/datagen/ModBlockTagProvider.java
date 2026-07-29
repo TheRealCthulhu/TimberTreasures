@@ -20,18 +20,34 @@ public class ModBlockTagProvider extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(ModBlocks.DIRT_LOG.get())
+                .add(ModBlocks.STONE_LOG.get())
+                .add(ModBlocks.GRAVEL_LOG.get())
+                .add(ModBlocks.CLAY_LOG.get())
+                .add(ModBlocks.SAND_LOG.get())
         ;
 
         tag(BlockTags.MINEABLE_WITH_HOE)
                 .add(ModBlocks.DIRT_LEAVES.get())
+                .add(ModBlocks.STONE_LEAVES.get())
+                .add(ModBlocks.GRAVEL_LEAVES.get())
+                .add(ModBlocks.CLAY_LEAVES.get())
+                .add(ModBlocks.SAND_LEAVES.get())
         ;
 
         tag(BlockTags.LEAVES)
                 .add(ModBlocks.DIRT_LEAVES.get())
+                .add(ModBlocks.STONE_LEAVES.get())
+                .add(ModBlocks.GRAVEL_LEAVES.get())
+                .add(ModBlocks.CLAY_LEAVES.get())
+                .add(ModBlocks.SAND_LEAVES.get())
         ;
 
         this.tag(BlockTags.LOGS_THAT_BURN)
                 .add(ModBlocks.DIRT_LOG.get())
+                .add(ModBlocks.STONE_LOG.get())
+                .add(ModBlocks.GRAVEL_LOG.get())
+                .add(ModBlocks.CLAY_LOG.get())
+                .add(ModBlocks.SAND_LOG.get())
         ;
     }
 }

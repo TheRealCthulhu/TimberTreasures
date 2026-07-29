@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gravel_acorn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timbertreasures:gravel_acorn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "timbertreasures:gravel_sapling"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gravel_acorn"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "timbertreasures:gravel_sapling"
+    ]
+  }
+}

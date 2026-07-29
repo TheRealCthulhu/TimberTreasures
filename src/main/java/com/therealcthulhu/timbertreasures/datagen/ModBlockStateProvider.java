@@ -21,14 +21,34 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.DIRT_AMBER);
-
         logBlock((RotatedPillarBlock)ModBlocks.DIRT_LOG.get());
-
         blockItem(ModBlocks.DIRT_LOG);
-
         saplingBlock(ModBlocks.DIRT_SAPLING);
-
         leavesBlock(ModBlocks.DIRT_LEAVES);
+
+        blockWithItem(ModBlocks.STONE_AMBER);
+        logBlock((RotatedPillarBlock)ModBlocks.STONE_LOG.get());
+        blockItem(ModBlocks.STONE_LOG);
+        saplingBlock(ModBlocks.STONE_SAPLING);
+        leavesBlock(ModBlocks.STONE_LEAVES);
+
+        blockWithItem(ModBlocks.GRAVEL_AMBER);
+        logBlock((RotatedPillarBlock)ModBlocks.GRAVEL_LOG.get());
+        blockItem(ModBlocks.GRAVEL_LOG);
+        saplingBlock(ModBlocks.GRAVEL_SAPLING);
+        leavesBlock(ModBlocks.GRAVEL_LEAVES);
+
+        blockWithItem(ModBlocks.CLAY_AMBER);
+        logBlock((RotatedPillarBlock)ModBlocks.CLAY_LOG.get());
+        blockItem(ModBlocks.CLAY_LOG);
+        saplingBlock(ModBlocks.CLAY_SAPLING);
+        leavesBlock(ModBlocks.CLAY_LEAVES);
+
+        blockWithItem(ModBlocks.SAND_AMBER);
+        logBlock((RotatedPillarBlock)ModBlocks.SAND_LOG.get());
+        blockItem(ModBlocks.SAND_LOG);
+        saplingBlock(ModBlocks.SAND_SAPLING);
+        leavesBlock(ModBlocks.SAND_LEAVES);
     }
 
 

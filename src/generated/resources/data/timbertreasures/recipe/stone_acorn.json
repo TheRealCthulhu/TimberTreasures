@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "timbertreasures:dirt_acorn"
+  },
+  "result": {
+    "count": 1,
+    "id": "timbertreasures:stone_acorn"
+  }
+}

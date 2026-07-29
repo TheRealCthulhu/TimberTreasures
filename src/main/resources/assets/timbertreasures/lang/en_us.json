@@ -1,11 +1,38 @@
 {
-  "itemGroup.examplemod": "Example Mod Tab",
   "block.timbertreasures.dirt_amber": "Dirt Amber",
   "block.timbertreasures.dirt_log": "Dirt Log",
   "block.timbertreasures.dirt_leaves": "Dirt Leaves",
   "block.timbertreasures.dirt_sapling": "Dirt Sapling",
   "item.timbertreasures.dirt_acorn": "Dirt Acorn",
   "item.timbertreasures.dirt_resin": "Dirt Resin",
+
+  "block.timbertreasures.stone_amber": "Stone Amber",
+  "block.timbertreasures.stone_log": "Stone Log",
+  "block.timbertreasures.stone_leaves": "Stone Leaves",
+  "block.timbertreasures.stone_sapling": "Stone Sapling",
+  "item.timbertreasures.stone_acorn": "Stone Acorn",
+  "item.timbertreasures.stone_resin": "Stone Resin",
+
+  "block.timbertreasures.gravel_amber": "Gravel Amber",
+  "block.timbertreasures.gravel_log": "Gravel Log",
+  "block.timbertreasures.gravel_leaves": "Gravel Leaves",
+  "block.timbertreasures.gravel_sapling": "Gravel Sapling",
+  "item.timbertreasures.gravel_acorn": "Gravel Acorn",
+  "item.timbertreasures.gravel_resin": "Gravel Resin",
+
+  "block.timbertreasures.clay_amber": "Clay Amber",
+  "block.timbertreasures.clay_log": "Clay Log",
+  "block.timbertreasures.clay_leaves": "Clay Leaves",
+  "block.timbertreasures.clay_sapling": "Clay Sapling",
+  "item.timbertreasures.clay_acorn": "Clay Acorn",
+  "item.timbertreasures.clay_resin": "Clay Resin",
+
+  "block.timbertreasures.sand_amber": "Sand Amber",
+  "block.timbertreasures.sand_log": "Sand Log",
+  "block.timbertreasures.sand_leaves": "Sand Leaves",
+  "block.timbertreasures.sand_sapling": "Sand Sapling",
+  "item.timbertreasures.sand_acorn": "Sand Acorn",
+  "item.timbertreasures.sand_resin": "Sand Resin",
 
   "creativetab.timbertreasures.timber_treasures": "Timber Treasures",
 

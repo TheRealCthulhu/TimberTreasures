@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "timbertreasures:dirt_resin"
+    },
+    "P": {
+      "item": "timbertreasures:stone_resin"
+    },
+    "S": {
+      "item": "timbertreasures:dirt_sapling"
+    }
+  },
+  "pattern": [
+    " P ",
+    "PDP",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "timbertreasures:clay_sapling"
+  }
+}

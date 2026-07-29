@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "timbertreasures:stone_acorn"
+    },
+    {
+      "item": "timbertreasures:stone_acorn"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "timbertreasures:gravel_acorn"
+  }
+}

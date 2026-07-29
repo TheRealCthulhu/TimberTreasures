@@ -28,6 +28,27 @@ public class ModCreativeModeTabs {
                                 output.accept(ModBlocks.DIRT_AMBER);
                                 output.accept(ModItems.DIRT_ACORN);
                                 output.accept(ModItems.DIRT_RESIN);
+
+                                output.accept(ModBlocks.STONE_SAPLING);
+                                output.accept(ModBlocks.STONE_LOG);
+                                output.accept(ModBlocks.STONE_LEAVES);
+                                output.accept(ModBlocks.STONE_AMBER);
+                                output.accept(ModItems.STONE_ACORN);
+                                output.accept(ModItems.STONE_RESIN);
+
+                                output.accept(ModBlocks.GRAVEL_SAPLING);
+                                output.accept(ModBlocks.GRAVEL_LOG);
+                                output.accept(ModBlocks.GRAVEL_LEAVES);
+                                output.accept(ModBlocks.GRAVEL_AMBER);
+                                output.accept(ModItems.GRAVEL_ACORN);
+                                output.accept(ModItems.GRAVEL_RESIN);
+
+                                output.accept(ModBlocks.CLAY_SAPLING);
+                                output.accept(ModBlocks.CLAY_LOG);
+                                output.accept(ModBlocks.CLAY_LEAVES);
+                                output.accept(ModBlocks.CLAY_AMBER);
+                                output.accept(ModItems.CLAY_ACORN);
+                                output.accept(ModItems.CLAY_RESIN);
                             })
                                 .build());
 

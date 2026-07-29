@@ -1,5 +1,9 @@
 {
   "values": [
-    "timbertreasures:dirt_leaves"
+    "timbertreasures:dirt_leaves",
+    "timbertreasures:stone_leaves",
+    "timbertreasures:gravel_leaves",
+    "timbertreasures:clay_leaves",
+    "timbertreasures:sand_leaves"
   ]
 }

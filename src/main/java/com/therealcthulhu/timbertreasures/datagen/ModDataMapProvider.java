@@ -23,6 +23,11 @@ public class ModDataMapProvider extends DataMapProvider {
     @Override
     protected void gather() {
         this.builder(NeoForgeDataMaps.COMPOSTABLES)
-                .add(ModItems.DIRT_ACORN.getId(), new Compostable(0.3f), false);
+                .add(ModItems.DIRT_ACORN.getId(), new Compostable(0.3f), false)
+                .add(ModItems.STONE_ACORN.getId(), new Compostable(0.3f), false)
+                .add(ModItems.GRAVEL_ACORN.getId(), new Compostable(0.3f), false)
+                .add(ModItems.CLAY_ACORN.getId(), new Compostable(0.3f), false)
+                .add(ModItems.SAND_ACORN.getId(), new Compostable(0.3f), false)
+                ;
     }
 }

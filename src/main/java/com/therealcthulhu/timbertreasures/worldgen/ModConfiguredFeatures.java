@@ -33,6 +33,38 @@ public class ModConfiguredFeatures {
                 new TwoLayersFeatureSize(1, 0, 2)).build()
         );
 
+        register(context, STONE_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(ModBlocks.STONE_LOG.get()),
+                new StraightTrunkPlacer(4, 2, 0),
+                BlockStateProvider.simple(ModBlocks.STONE_LEAVES.get()),
+                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3),
+                new TwoLayersFeatureSize(1, 0, 2)).build()
+        );
+
+        register(context, GRAVEL_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(ModBlocks.GRAVEL_LOG.get()),
+                new StraightTrunkPlacer(4, 2, 0),
+                BlockStateProvider.simple(ModBlocks.GRAVEL_LEAVES.get()),
+                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3),
+                new TwoLayersFeatureSize(1, 0, 2)).build()
+        );
+
+        register(context, CLAY_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(ModBlocks.CLAY_LOG.get()),
+                new StraightTrunkPlacer(4, 2, 0),
+                BlockStateProvider.simple(ModBlocks.CLAY_LEAVES.get()),
+                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3),
+                new TwoLayersFeatureSize(1, 0, 2)).build()
+        );
+
+        register(context, SAND_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                BlockStateProvider.simple(ModBlocks.SAND_LOG.get()),
+                new StraightTrunkPlacer(4, 2, 0),
+                BlockStateProvider.simple(ModBlocks.SAND_LEAVES.get()),
+                new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3),
+                new TwoLayersFeatureSize(1, 0, 2)).build()
+        );
+
     }
 
 
@@ -46,5 +78,9 @@ public class ModConfiguredFeatures {
     }
 
 
-    public static final ResourceKey<ConfiguredFeature<?, ?>> DIRT_KEY = registerKey("resource");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> DIRT_KEY = registerKey("dirt_resource");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> STONE_KEY = registerKey("stone_resource");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> GRAVEL_KEY = registerKey("gravel_resource");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> CLAY_KEY = registerKey("clay_resource");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> SAND_KEY = registerKey("sand_resource");
 }

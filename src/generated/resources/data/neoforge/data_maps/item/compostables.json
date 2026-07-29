@@ -1,6 +1,18 @@
 {
   "values": {
+    "timbertreasures:clay_acorn": {
+      "chance": 0.3
+    },
     "timbertreasures:dirt_acorn": {
+      "chance": 0.3
+    },
+    "timbertreasures:gravel_acorn": {
+      "chance": 0.3
+    },
+    "timbertreasures:sand_acorn": {
+      "chance": 0.3
+    },
+    "timbertreasures:stone_acorn": {
       "chance": 0.3
     }
   }

@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dirt_resin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timbertreasures:dirt_resin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dirt_sapling": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timbertreasures:dirt_sapling"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stone_resin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timbertreasures:stone_resin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "timbertreasures:clay_sapling"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_stone_resin",
+      "has_dirt_resin",
+      "has_dirt_sapling"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "timbertreasures:clay_sapling"
+    ]
+  }
+}

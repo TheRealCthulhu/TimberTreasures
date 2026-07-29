@@ -21,6 +21,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
 
         this.tag(ItemTags.LOGS_THAT_BURN)
-                .add(ModBlocks.DIRT_LOG.get().asItem());
+                .add(ModBlocks.DIRT_LOG.get().asItem())
+                .add(ModBlocks.STONE_LOG.get().asItem())
+                .add(ModBlocks.GRAVEL_LOG.get().asItem())
+                .add(ModBlocks.CLAY_LOG.get().asItem())
+                .add(ModBlocks.SAND_LOG.get().asItem())
+                ;
     }
 }

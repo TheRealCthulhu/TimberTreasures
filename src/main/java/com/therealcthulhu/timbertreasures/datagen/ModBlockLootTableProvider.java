@@ -41,12 +41,38 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected void generate() {
         dropSelf(ModBlocks.DIRT_AMBER.get());
         dropSelf(ModBlocks.DIRT_SAPLING.get());
-
         add(ModBlocks.DIRT_LOG.get(),
                 createResourceLogDrops(ModItems.DIRT_RESIN, Items.OAK_LOG));
         add(ModBlocks.DIRT_LEAVES.get(),
         createResourceLeavesDrops(ModItems.DIRT_ACORN, ModBlocks.DIRT_SAPLING.asItem(), ModBlocks.DIRT_LEAVES.get()));
 
+        dropSelf(ModBlocks.STONE_AMBER.get());
+        dropSelf(ModBlocks.STONE_SAPLING.get());
+        add(ModBlocks.STONE_LOG.get(),
+                createResourceLogDrops(ModItems.STONE_RESIN, Items.OAK_LOG));
+        add(ModBlocks.STONE_LEAVES.get(),
+                createResourceLeavesDrops(ModItems.STONE_ACORN, ModBlocks.STONE_SAPLING.asItem(), ModBlocks.STONE_LEAVES.get()));
+
+        dropSelf(ModBlocks.GRAVEL_AMBER.get());
+        dropSelf(ModBlocks.GRAVEL_SAPLING.get());
+        add(ModBlocks.GRAVEL_LOG.get(),
+                createResourceLogDrops(ModItems.GRAVEL_RESIN, Items.OAK_LOG));
+        add(ModBlocks.GRAVEL_LEAVES.get(),
+                createResourceLeavesDrops(ModItems.GRAVEL_ACORN, ModBlocks.GRAVEL_SAPLING.asItem(), ModBlocks.GRAVEL_LEAVES.get()));
+
+        dropSelf(ModBlocks.CLAY_AMBER.get());
+        dropSelf(ModBlocks.CLAY_SAPLING.get());
+        add(ModBlocks.CLAY_LOG.get(),
+                createResourceLogDrops(ModItems.CLAY_RESIN, Items.OAK_LOG));
+        add(ModBlocks.CLAY_LEAVES.get(),
+                createResourceLeavesDrops(ModItems.CLAY_ACORN, ModBlocks.CLAY_SAPLING.asItem(), ModBlocks.CLAY_LEAVES.get()));
+
+        dropSelf(ModBlocks.SAND_AMBER.get());
+        dropSelf(ModBlocks.SAND_SAPLING.get());
+        add(ModBlocks.SAND_LOG.get(),
+                createResourceLogDrops(ModItems.SAND_RESIN, Items.OAK_LOG));
+        add(ModBlocks.SAND_LEAVES.get(),
+                createResourceLeavesDrops(ModItems.SAND_ACORN, ModBlocks.SAND_SAPLING.asItem(), ModBlocks.SAND_LEAVES.get()));
     }
 
     protected LootTable.Builder createResourceLogDrops(DeferredItem<Item> resinItem, Item log) {
