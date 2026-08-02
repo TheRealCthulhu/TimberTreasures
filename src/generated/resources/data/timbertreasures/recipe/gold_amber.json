@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "timbertreasures:gold_acorn"
+    },
+    "R": {
+      "item": "timbertreasures:gold_resin"
+    }
+  },
+  "pattern": [
+    "ARA",
+    "RAR",
+    "ARA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "timbertreasures:gold_amber"
+  }
+}

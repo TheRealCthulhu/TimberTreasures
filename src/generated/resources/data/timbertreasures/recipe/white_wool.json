@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "timbertreasures:string_acorn"
+    },
+    "R": {
+      "item": "timbertreasures:string_resin"
+    }
+  },
+  "pattern": [
+    "RAR",
+    "ARA",
+    "RAR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:white_wool"
+  }
+}

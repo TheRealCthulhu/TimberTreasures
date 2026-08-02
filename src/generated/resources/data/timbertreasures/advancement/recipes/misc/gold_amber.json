@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gold_acorn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timbertreasures:gold_acorn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gold_resin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timbertreasures:gold_resin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "timbertreasures:gold_amber"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_gold_acorn",
+      "has_gold_resin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "timbertreasures:gold_amber"
+    ]
+  }
+}

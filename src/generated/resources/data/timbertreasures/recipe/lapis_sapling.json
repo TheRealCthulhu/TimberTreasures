@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "timbertreasures:bone_resin"
+    },
+    "C": {
+      "item": "timbertreasures:clay_resin"
+    },
+    "S": {
+      "item": "minecraft:dark_oak_sapling"
+    },
+    "W": {
+      "item": "minecraft:potion"
+    }
+  },
+  "pattern": [
+    " B ",
+    "CWC",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "timbertreasures:lapis_sapling"
+  }
+}

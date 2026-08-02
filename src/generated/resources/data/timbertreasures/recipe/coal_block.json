@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "timbertreasures:coal_acorn"
+    },
+    "R": {
+      "item": "timbertreasures:coal_resin"
+    }
+  },
+  "pattern": [
+    "RAR",
+    "ARA",
+    "RAR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:coal"
+  }
+}

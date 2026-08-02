@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bone_acorn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timbertreasures:bone_acorn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bone_resin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timbertreasures:bone_resin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "timbertreasures:bone_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bone_acorn",
+      "has_bone_resin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "timbertreasures:bone_block"
+    ]
+  }
+}

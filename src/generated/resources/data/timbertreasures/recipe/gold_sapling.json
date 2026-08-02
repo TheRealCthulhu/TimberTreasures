@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "timbertreasures:iron_resin"
+    },
+    "O": {
+      "item": "minecraft:oak_sapling"
+    },
+    "S": {
+      "item": "timbertreasures:sand_resin"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "IYI",
+    "SOS",
+    "IYI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "timbertreasures:gold_sapling"
+  }
+}

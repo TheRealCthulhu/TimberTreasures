@@ -49,6 +49,78 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.SAND_LOG);
         saplingBlock(ModBlocks.SAND_SAPLING);
         leavesBlock(ModBlocks.SAND_LEAVES);
+
+        blockWithItem(ModBlocks.BONE_AMBER);
+        logBlock((RotatedPillarBlock)ModBlocks.BONE_LOG.get());
+        blockItem(ModBlocks.BONE_LOG);
+        saplingBlock(ModBlocks.BONE_SAPLING);
+        leavesBlock(ModBlocks.BONE_LEAVES);
+
+        blockWithItem(ModBlocks.STRING_AMBER);
+        logBlock((RotatedPillarBlock)ModBlocks.STRING_LOG.get());
+        blockItem(ModBlocks.STRING_LOG);
+        saplingBlock(ModBlocks.STRING_SAPLING);
+        leavesBlock(ModBlocks.STRING_LEAVES);
+
+        blockWithItem(ModBlocks.COAL_AMBER);
+        logBlock((RotatedPillarBlock)ModBlocks.COAL_LOG.get());
+        blockItem(ModBlocks.COAL_LOG);
+        saplingBlock(ModBlocks.COAL_SAPLING);
+        leavesBlock(ModBlocks.COAL_LEAVES);
+
+        blockWithItem(ModBlocks.IRON_AMBER);
+        logBlock((RotatedPillarBlock)ModBlocks.IRON_LOG.get());
+        blockItem(ModBlocks.IRON_LOG);
+        saplingBlock(ModBlocks.IRON_SAPLING);
+        leavesBlock(ModBlocks.IRON_LEAVES);
+
+        blockWithItem(ModBlocks.COPPER_AMBER);
+        logBlock((RotatedPillarBlock)ModBlocks.COPPER_LOG.get());
+        blockItem(ModBlocks.COPPER_LOG);
+        saplingBlock(ModBlocks.COPPER_SAPLING);
+        leavesBlock(ModBlocks.COPPER_LEAVES);
+
+        blockWithItem(ModBlocks.GOLD_AMBER);
+        logBlock((RotatedPillarBlock)ModBlocks.GOLD_LOG.get());
+        blockItem(ModBlocks.GOLD_LOG);
+        saplingBlock(ModBlocks.GOLD_SAPLING);
+        leavesBlock(ModBlocks.GOLD_LEAVES);
+
+        blockWithItem(ModBlocks.DIAMOND_AMBER);
+        logBlock((RotatedPillarBlock)ModBlocks.DIAMOND_LOG.get());
+        blockItem(ModBlocks.DIAMOND_LOG);
+        saplingBlock(ModBlocks.DIAMOND_SAPLING);
+        leavesBlock(ModBlocks.DIAMOND_LEAVES);
+
+        blockWithItem(ModBlocks.REDSTONE_AMBER);
+        logBlock((RotatedPillarBlock)ModBlocks.REDSTONE_LOG.get());
+        blockItem(ModBlocks.REDSTONE_LOG);
+        saplingBlock(ModBlocks.REDSTONE_SAPLING);
+        leavesBlock(ModBlocks.REDSTONE_LEAVES);
+
+        blockWithItem(ModBlocks.EMERALD_AMBER);
+        logBlock((RotatedPillarBlock)ModBlocks.EMERALD_LOG.get());
+        blockItem(ModBlocks.EMERALD_LOG);
+        saplingBlock(ModBlocks.EMERALD_SAPLING);
+        leavesBlock(ModBlocks.EMERALD_LEAVES);
+
+        blockWithItem(ModBlocks.QUARTZ_AMBER);
+        logBlock((RotatedPillarBlock)ModBlocks.QUARTZ_LOG.get());
+        blockItem(ModBlocks.QUARTZ_LOG);
+        saplingBlock(ModBlocks.QUARTZ_SAPLING);
+        leavesBlock(ModBlocks.QUARTZ_LEAVES);
+
+        blockWithItem(ModBlocks.LAPIS_AMBER);
+        logBlock((RotatedPillarBlock)ModBlocks.LAPIS_LOG.get());
+        blockItem(ModBlocks.LAPIS_LOG);
+        saplingBlock(ModBlocks.LAPIS_SAPLING);
+        leavesBlock(ModBlocks.LAPIS_LEAVES);
+
+        blockWithItem(ModBlocks.AMETHYST_AMBER);
+        logBlock((RotatedPillarBlock)ModBlocks.AMETHYST_LOG.get());
+        blockItem(ModBlocks.AMETHYST_LOG);
+        saplingBlock(ModBlocks.AMETHYST_SAPLING);
+        leavesBlock(ModBlocks.AMETHYST_LEAVES);
     }
 
 

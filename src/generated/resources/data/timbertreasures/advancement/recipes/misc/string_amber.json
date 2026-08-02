@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_string_acorn": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timbertreasures:string_acorn"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_string_resin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timbertreasures:string_resin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "timbertreasures:string_amber"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_string_acorn",
+      "has_string_resin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "timbertreasures:string_amber"
+    ]
+  }
+}

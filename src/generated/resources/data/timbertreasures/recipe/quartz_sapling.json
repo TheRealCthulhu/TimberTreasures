@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "timbertreasures:diamond_resin"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "N": {
+      "item": "minecraft:netherrack"
+    },
+    "S": {
+      "item": "timbertreasures:emerald_sapling"
+    }
+  },
+  "pattern": [
+    " D ",
+    "NEN",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "timbertreasures:quartz_sapling"
+  }
+}

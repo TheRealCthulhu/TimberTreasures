@@ -4,6 +4,18 @@
     "timbertreasures:stone_leaves",
     "timbertreasures:gravel_leaves",
     "timbertreasures:clay_leaves",
-    "timbertreasures:sand_leaves"
+    "timbertreasures:sand_leaves",
+    "timbertreasures:bone_leaves",
+    "timbertreasures:string_leaves",
+    "timbertreasures:coal_leaves",
+    "timbertreasures:iron_leaves",
+    "timbertreasures:gold_leaves",
+    "timbertreasures:copper_leaves",
+    "timbertreasures:diamond_leaves",
+    "timbertreasures:emerald_leaves",
+    "timbertreasures:redstone_leaves",
+    "timbertreasures:quartz_leaves",
+    "timbertreasures:lapis_leaves",
+    "timbertreasures:amethyst_leaves"
   ]
 }

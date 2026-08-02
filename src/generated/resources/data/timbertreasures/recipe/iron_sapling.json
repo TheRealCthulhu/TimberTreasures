@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:acacia_sapling"
+    },
+    "C": {
+      "item": "timbertreasures:coal_resin"
+    },
+    "G": {
+      "item": "timbertreasures:gravel_resin"
+    },
+    "L": {
+      "item": "timbertreasures:clay_resin"
+    },
+    "S": {
+      "item": "timbertreasures:sand_resin"
+    }
+  },
+  "pattern": [
+    "CGC",
+    "SAS",
+    "CLC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "timbertreasures:iron_sapling"
+  }
+}

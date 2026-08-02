@@ -28,6 +28,18 @@ public class ModDataMapProvider extends DataMapProvider {
                 .add(ModItems.GRAVEL_ACORN.getId(), new Compostable(0.3f), false)
                 .add(ModItems.CLAY_ACORN.getId(), new Compostable(0.3f), false)
                 .add(ModItems.SAND_ACORN.getId(), new Compostable(0.3f), false)
+                .add(ModItems.BONE_ACORN.getId(), new Compostable(0.3f), false)
+                .add(ModItems.STRING_ACORN.getId(), new Compostable(0.3f), false)
+                .add(ModItems.COAL_ACORN.getId(), new Compostable(0.3f), false)
+                .add(ModItems.IRON_ACORN.getId(), new Compostable(0.3f), false)
+                .add(ModItems.GOLD_ACORN.getId(), new Compostable(0.3f), false)
+                .add(ModItems.COPPER_ACORN.getId(), new Compostable(0.3f), false)
+                .add(ModItems.REDSTONE_ACORN.getId(), new Compostable(0.3f), false)
+                .add(ModItems.DIAMOND_ACORN.getId(), new Compostable(0.3f), false)
+                .add(ModItems.EMERALD_ACORN.getId(), new Compostable(0.3f), false)
+                .add(ModItems.QUARTZ_ACORN.getId(), new Compostable(0.3f), false)
+                .add(ModItems.LAPIS_ACORN.getId(), new Compostable(0.3f), false)
+                .add(ModItems.AMETHYST_ACORN.getId(), new Compostable(0.3f), false)
                 ;
     }
 }

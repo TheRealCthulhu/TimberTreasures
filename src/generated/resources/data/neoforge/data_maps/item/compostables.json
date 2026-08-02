@@ -1,18 +1,54 @@
 {
   "values": {
+    "timbertreasures:amethyst_acorn": {
+      "chance": 0.3
+    },
+    "timbertreasures:bone_acorn": {
+      "chance": 0.3
+    },
     "timbertreasures:clay_acorn": {
+      "chance": 0.3
+    },
+    "timbertreasures:coal_acorn": {
+      "chance": 0.3
+    },
+    "timbertreasures:copper_acorn": {
+      "chance": 0.3
+    },
+    "timbertreasures:diamond_acorn": {
       "chance": 0.3
     },
     "timbertreasures:dirt_acorn": {
       "chance": 0.3
     },
+    "timbertreasures:emerald_acorn": {
+      "chance": 0.3
+    },
+    "timbertreasures:gold_acorn": {
+      "chance": 0.3
+    },
     "timbertreasures:gravel_acorn": {
+      "chance": 0.3
+    },
+    "timbertreasures:iron_acorn": {
+      "chance": 0.3
+    },
+    "timbertreasures:lapis_acorn": {
+      "chance": 0.3
+    },
+    "timbertreasures:quartz_acorn": {
+      "chance": 0.3
+    },
+    "timbertreasures:redstone_acorn": {
       "chance": 0.3
     },
     "timbertreasures:sand_acorn": {
       "chance": 0.3
     },
     "timbertreasures:stone_acorn": {
+      "chance": 0.3
+    },
+    "timbertreasures:string_acorn": {
       "chance": 0.3
     }
   }

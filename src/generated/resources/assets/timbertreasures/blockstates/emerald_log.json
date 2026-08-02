@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "timbertreasures:block/emerald_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "timbertreasures:block/emerald_log"
+    },
+    "axis=z": {
+      "model": "timbertreasures:block/emerald_log_horizontal",
+      "x": 90
+    }
+  }
+}

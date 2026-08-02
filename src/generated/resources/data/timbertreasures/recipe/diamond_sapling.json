@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "timbertreasures:gold_resin"
+    },
+    "L": {
+      "item": "minecraft:light_gray_dye"
+    },
+    "P": {
+      "item": "timbertreasures:lapis_resin"
+    },
+    "R": {
+      "item": "timbertreasures:redstone_sapling"
+    }
+  },
+  "pattern": [
+    " L ",
+    "GPG",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "timbertreasures:diamond_sapling"
+  }
+}

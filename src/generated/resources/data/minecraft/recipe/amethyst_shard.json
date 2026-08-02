@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "timbertreasures:amethyst_acorn"
+    },
+    "R": {
+      "item": "timbertreasures:amethyst_resin"
+    }
+  },
+  "pattern": [
+    "RAR",
+    "ARA",
+    "RAR"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:amethyst_shard"
+  }
+}

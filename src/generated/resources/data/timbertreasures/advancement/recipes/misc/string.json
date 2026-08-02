@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_string_amber": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timbertreasures:string_amber"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "timbertreasures:string"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_string_amber"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "timbertreasures:string"
+    ]
+  }
+}

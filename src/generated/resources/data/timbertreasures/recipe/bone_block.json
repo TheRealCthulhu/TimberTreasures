@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "timbertreasures:bone_acorn"
+    },
+    "R": {
+      "item": "timbertreasures:bone_resin"
+    }
+  },
+  "pattern": [
+    "RAR",
+    "ARA",
+    "RAR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:bone_block"
+  }
+}

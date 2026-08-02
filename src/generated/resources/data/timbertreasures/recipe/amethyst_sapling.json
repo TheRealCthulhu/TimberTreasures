@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "timbertreasures:amethyst_resin"
+    },
+    "D": {
+      "item": "timbertreasures:diamond_resin"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "S": {
+      "item": "timbertreasures:quartz_sapling"
+    }
+  },
+  "pattern": [
+    " D ",
+    "AEA",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "timbertreasures:amethyst_sapling"
+  }
+}

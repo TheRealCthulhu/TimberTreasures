@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_diamond_sapling": {
+      "conditions": {
+        "items": [
+          {
+            "items": "timbertreasures:diamond_sapling"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "timbertreasures:emerald_sapling"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_diamond_sapling"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "timbertreasures:emerald_sapling"
+    ]
+  }
+}

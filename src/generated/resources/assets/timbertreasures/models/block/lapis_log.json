@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "timbertreasures:block/lapis_log_top",
+    "side": "timbertreasures:block/lapis_log"
+  }
+}

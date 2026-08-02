@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "timbertreasures:clay_resin"
+    },
+    "P": {
+      "item": "timbertreasures:stone_resin"
+    },
+    "R": {
+      "item": "minecraft:spruce_sapling"
+    },
+    "S": {
+      "item": "timbertreasures:sand_resin"
+    }
+  },
+  "pattern": [
+    "PCP",
+    "SRS",
+    "PCP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "timbertreasures:copper_sapling"
+  }
+}

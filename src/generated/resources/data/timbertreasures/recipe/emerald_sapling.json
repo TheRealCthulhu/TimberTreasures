@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "timbertreasures:copper_resin"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "timbertreasures:iron_resin"
+    },
+    "S": {
+      "item": "timbertreasures:diamond_sapling"
+    }
+  },
+  "pattern": [
+    " I ",
+    "CDC",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "timbertreasures:emerald_sapling"
+  }
+}

@@ -4,6 +4,18 @@
     "timbertreasures:stone_log",
     "timbertreasures:gravel_log",
     "timbertreasures:clay_log",
-    "timbertreasures:sand_log"
+    "timbertreasures:sand_log",
+    "timbertreasures:bone_log",
+    "timbertreasures:string_log",
+    "timbertreasures:coal_log",
+    "timbertreasures:iron_log",
+    "timbertreasures:copper_log",
+    "timbertreasures:gold_log",
+    "timbertreasures:diamond_log",
+    "timbertreasures:redstone_log",
+    "timbertreasures:emerald_log",
+    "timbertreasures:quartz_log",
+    "timbertreasures:lapis_log",
+    "timbertreasures:amethyst_log"
   ]
 }

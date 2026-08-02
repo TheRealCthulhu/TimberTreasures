@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bone_meal"
+    },
+    "S": {
+      "item": "minecraft:jungle_sapling"
+    },
+    "V": {
+      "item": "minecraft:vine"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BVB",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "timbertreasures:string_sapling"
+  }
+}

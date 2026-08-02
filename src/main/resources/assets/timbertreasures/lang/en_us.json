@@ -34,6 +34,92 @@
   "item.timbertreasures.sand_acorn": "Sand Acorn",
   "item.timbertreasures.sand_resin": "Sand Resin",
 
+  "block.timbertreasures.bone_amber": "Bone Amber",
+  "block.timbertreasures.bone_log": "Bone Log",
+  "block.timbertreasures.bone_leaves": "Bone Leaves",
+  "block.timbertreasures.bone_sapling": "Bone Sapling",
+  "item.timbertreasures.bone_acorn": "Bone Acorn",
+  "item.timbertreasures.bone_resin": "Bone Resin",
+
+  "block.timbertreasures.string_amber": "String Amber",
+  "block.timbertreasures.string_log": "String Log",
+  "block.timbertreasures.string_leaves": "String Leaves",
+  "block.timbertreasures.string_sapling": "String Sapling",
+  "item.timbertreasures.string_acorn": "String Acorn",
+  "item.timbertreasures.string_resin": "String Resin",
+
+  "block.timbertreasures.coal_amber": "Coal Amber",
+  "block.timbertreasures.coal_log": "Coal Log",
+  "block.timbertreasures.coal_leaves": "Coal Leaves",
+  "block.timbertreasures.coal_sapling": "Coal Sapling",
+  "item.timbertreasures.coal_acorn": "Coal Acorn",
+  "item.timbertreasures.coal_resin": "Coal Resin",
+
+  "block.timbertreasures.iron_amber": "Iron Amber",
+  "block.timbertreasures.iron_log": "Iron Log",
+  "block.timbertreasures.iron_leaves": "Iron Leaves",
+  "block.timbertreasures.iron_sapling": "Iron Sapling",
+  "item.timbertreasures.iron_acorn": "Iron Acorn",
+  "item.timbertreasures.iron_resin": "Iron Resin",
+
+  "block.timbertreasures.copper_amber": "Copper Amber",
+  "block.timbertreasures.copper_log": "Copper Log",
+  "block.timbertreasures.copper_leaves": "Copper Leaves",
+  "block.timbertreasures.copper_sapling": "Copper Sapling",
+  "item.timbertreasures.copper_acorn": "Copper Acorn",
+  "item.timbertreasures.copper_resin": "Copper Resin",
+
+  "block.timbertreasures.gold_amber": "Gold Amber",
+  "block.timbertreasures.gold_log": "Gold Log",
+  "block.timbertreasures.gold_leaves": "Gold Leaves",
+  "block.timbertreasures.gold_sapling": "Gold Sapling",
+  "item.timbertreasures.gold_acorn": "Gold Acorn",
+  "item.timbertreasures.gold_resin": "Gold Resin",
+
+  "block.timbertreasures.diamond_amber": "Diamond Amber",
+  "block.timbertreasures.diamond_log": "Diamond Log",
+  "block.timbertreasures.diamond_leaves": "Diamond Leaves",
+  "block.timbertreasures.diamond_sapling": "Diamond Sapling",
+  "item.timbertreasures.diamond_acorn": "Diamond Acorn",
+  "item.timbertreasures.diamond_resin": "Diamond Resin",
+
+  "block.timbertreasures.redstone_amber": "Redstone Amber",
+  "block.timbertreasures.redstone_log": "Redstone Log",
+  "block.timbertreasures.redstone_leaves": "Redstone Leaves",
+  "block.timbertreasures.redstone_sapling": "Redstone Sapling",
+  "item.timbertreasures.redstone_acorn": "Redstone Acorn",
+  "item.timbertreasures.redstone_resin": "Redstone Resin",
+
+  "block.timbertreasures.emerald_amber": "Emerald Amber",
+  "block.timbertreasures.emerald_log": "Emerald Log",
+  "block.timbertreasures.emerald_leaves": "Emerald Leaves",
+  "block.timbertreasures.emerald_sapling": "Emerald Sapling",
+  "item.timbertreasures.emerald_acorn": "Emerald Acorn",
+  "item.timbertreasures.emerald_resin": "Emerald Resin",
+
+  "block.timbertreasures.quartz_amber": "Quartz Amber",
+  "block.timbertreasures.quartz_log": "Quartz Log",
+  "block.timbertreasures.quartz_leaves": "Quartz Leaves",
+  "block.timbertreasures.quartz_sapling": "Quartz Sapling",
+  "item.timbertreasures.quartz_acorn": "Quartz Acorn",
+  "item.timbertreasures.quartz_resin": "Quartz Resin",
+
+  "block.timbertreasures.lapis_amber": "Lapis Amber",
+  "block.timbertreasures.lapis_log": "Lapis Log",
+  "block.timbertreasures.lapis_leaves": "Lapis Leaves",
+  "block.timbertreasures.lapis_sapling": "Lapis Sapling",
+  "item.timbertreasures.lapis_acorn": "Lapis Acorn",
+  "item.timbertreasures.lapis_resin": "Lapis Resin",
+
+  "block.timbertreasures.amethyst_amber": "Amethyst Amber",
+  "block.timbertreasures.amethyst_log": "Amethyst Log",
+  "block.timbertreasures.amethyst_leaves": "Amethyst Leaves",
+  "block.timbertreasures.amethyst_sapling": "Amethyst Sapling",
+  "item.timbertreasures.amethyst_acorn": "Amethyst Acorn",
+  "item.timbertreasures.amethyst_resin": "Amethyst Resin",
+
+
+
   "creativetab.timbertreasures.timber_treasures": "Timber Treasures",
 
 
